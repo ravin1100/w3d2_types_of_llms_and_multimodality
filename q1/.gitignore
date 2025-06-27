@@ -1,0 +1,44 @@
+# Environment variables
+.env
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development
+*.log
+.coverage
+htmlcov/
+
+# Model files and caches
+.torch/
+.cache/
+huggingface/
+transformers/
+
+# Test files
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover 
